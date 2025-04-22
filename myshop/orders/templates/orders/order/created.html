@@ -1,0 +1,9 @@
+{% extends "shop/base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Thank You" %}{% endblock title %}
+{% block content %}
+
+        <h1>{% translate "Thank You" %}</h1>
+        <p>{% blocktranslate with id=order.id%}Your order has been successfully completed. Your order number is <strong>{{id}}</strong>{% endblocktranslate %}</p>
+
+{% endblock content %}

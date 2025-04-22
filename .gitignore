@@ -1,0 +1,66 @@
+venv/
+env2/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.pot
+*.py~ 
+*.swp
+*.bak
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+media/
+static/
+*.log
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.vscode/
+
+# IDEs
+.idea/
+.vscode/
+
+# Distribution / Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Django secrets and credentials
+*.env
+*.env.*
+*.ini
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Other
+*.tgz
+
