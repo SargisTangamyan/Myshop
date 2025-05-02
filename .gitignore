@@ -22,7 +22,6 @@ __pycache__/
 __pycache__/
 db.sqlite3
 media/
-static/
 *.log
 
 # Virtual Environment
